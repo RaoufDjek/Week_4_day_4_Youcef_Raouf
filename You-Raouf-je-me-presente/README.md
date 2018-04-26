@@ -4,8 +4,8 @@
 
 
 Comment ça marche ? et bien :
-Dejà commence par un :
-'bundle install'
+Dejà commence par un : <br>
+bundle install
 puis un 
 rails db:migrate
 
