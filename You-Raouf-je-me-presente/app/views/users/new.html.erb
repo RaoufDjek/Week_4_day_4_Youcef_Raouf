@@ -1,0 +1,15 @@
+
+<h1>Ici c'est Paris ! non ici c'est pour créer des utilisateurs, bah ouais kess t'as cru ?</h1>
+
+<p>Allé raméne toi</p> 
+
+ <form action="/new" method="POST">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  Username: <br>
+  <input type="text" name="username"><br>
+  
+  <textarea name="bio">Ecris quelque chose sur toi </textarea>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
